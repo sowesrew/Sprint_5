@@ -5,4 +5,3 @@ from selenium import webdriver
 def driver():
     chrome_driver = webdriver.Chrome()
     return chrome_driver
-

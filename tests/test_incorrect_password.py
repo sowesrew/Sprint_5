@@ -1,4 +1,3 @@
-from selenium import webdriver
 from locators import RegLocators
 from conftest import driver
 
@@ -8,7 +7,7 @@ class TestIncorrectPassword:
         driver.get("https://stellarburgers.nomoreparties.site/register") # переход на страницу регистрации
 
         driver.find_element(*RegLocators.REGISTRATION_INPUT_NAME).send_keys("Светлана") # ввод имени
-        driver.find_element(*RegLocators.INPUT_EMAIL).send_keys("ulyankinasveta7_131788@yandex.ru") # ввод почты
+        driver.find_element(*RegLocators.INPUT_EMAIL).send_keys("ulyankinasveta7906@yandex.ru@yandex.ru") # ввод почты
         driver.find_element(*RegLocators.INPUT_PASSWORD).send_keys("qwer") # ввод пароля
         driver.find_element(*RegLocators.REGISTRATION_BUTTON_REG).click() # клик на кнопке "Зарегистрироваться"
 
