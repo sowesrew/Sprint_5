@@ -1,6 +1,6 @@
 from locators import RegLocators
 from conftest import driver
-from data import AuthorizationData
+from helpers import GenerationEmail
 
 
 class TestIncorrectPassword:
@@ -8,7 +8,7 @@ class TestIncorrectPassword:
         driver.get("https://stellarburgers.nomoreparties.site/register")  # переход на страницу регистрации
 
         driver.find_element(*RegLocators.REGISTRATION_INPUT_NAME).send_keys("Светлана")  # ввод имени
-        driver.find_element(*RegLocators.INPUT_EMAIL).send_keys(AuthorizationData.email_generator())  # ввод почты
+        driver.find_element(*RegLocators.INPUT_EMAIL).send_keys(GenerationEmail.email_generator())  # ввод почты
         driver.find_element(*RegLocators.INPUT_PASSWORD).send_keys("qwer")  # ввод пароля
         driver.find_element(*RegLocators.REGISTRATION_BUTTON_REG).click()  # клик на кнопке "Зарегистрироваться"
 

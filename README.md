@@ -1,7 +1,7 @@
 # Sprint_5
 Данный проект тестирует UI интерфейс сайта: https://stellarburgers.nomoreparties.site/
 
-Проект содержит в себе папку tests с файлами тестов, файл локаторов [locators.py](locators.py), файл фикстур [conftest.py](conftest.py), файл с авторизационными данными [data.py](data.py) и [.gitignore](.gitignore)
+Проект содержит в себе папку tests с файлами тестов, файл локаторов [locators.py](locators.py), файл фикстур [conftest.py](conftest.py), файл с авторизационными статическими данными [data.py](data.py), файл с генерацией авторизационных данных [helpers.py](heplpers.py) и [.gitignore](.gitignore)
 
 Описание тестов из папки tests:
 1. test_exit - выход из аккаунта
@@ -10,7 +10,9 @@
 4. test_login_by_password_recovery - тестирование входа через кнопку в форме восстановления пароля
 5. test_login_by_profile - тестирование входа через кнопку "Личный кабинет"
 6. test_login_by_registration_form - тестирование через кнопку "Войти" в форме регистрации
-7. test_navigating_pages_in_constructor - тестирование переключения разделов в конструкторе
+7. test_navigating_page_bun_in_constructor - тестирование переключения на раздел "Булочка"
+8. test_navigating_page_fill_in_constructor - тестирование переключения на раздел "Начинки"
+9. test_navigating_page_sause_in_constructor - тестирование переключения на раздел "Соусы"
 8. test_registration - тестирование регистрации на сайт
 9. test_switch_by_profile - тестирование перехода на личный кабинет
 10. test_switch_from_profile_to_constructor - тестирование перехода на конструктор через кнопку "Конструктор" и через логотип
