@@ -23,6 +23,6 @@ class RegLocators: # класс локаторов
     SWITCH_KONSTRUCTOR_SAUSE = (By.XPATH, ".//span[text() = 'Соусы']/..") # переключатель "Соусы"
     SWITCH_KONSTRUCTOR_FILL = (By.XPATH, ".//span[text() = 'Начинки']/..") # переключатель "Начинки"
     # элементы в конструкторе
-    ELEMENT_BUN = (By.XPATH, ".//h2[text() = 'Булки']") # заголовок "Булки"
+    ELEMENT_BUN = (By.XPATH, ".//h2[text() = 'Булки']")  # заголовок "Булки"
     ELEMENT_SAUSE = (By.XPATH, ".//h2[text() = 'Соусы']")  # заголовок "Соусы"
     ELEMENT_FILL = (By.XPATH, ".//h2[text() = 'Начинки']")  # заголовок "Начинки"

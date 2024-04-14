@@ -10,9 +10,7 @@
 4. test_login_by_password_recovery - тестирование входа через кнопку в форме восстановления пароля
 5. test_login_by_profile - тестирование входа через кнопку "Личный кабинет"
 6. test_login_by_registration_form - тестирование через кнопку "Войти" в форме регистрации
-7. test_navigating_page_bun_in_constructor - тестирование переключения на раздел "Булочка"
-8. test_navigating_page_fill_in_constructor - тестирование переключения на раздел "Начинки"
-9. test_navigating_page_sause_in_constructor - тестирование переключения на раздел "Соусы"
+7. test_navigating_pages_in_constructor - тестирование переключения вкладок в конструкторе
 8. test_registration - тестирование регистрации на сайт
 9. test_switch_by_profile - тестирование перехода на личный кабинет
 10. test_switch_from_profile_to_constructor - тестирование перехода на конструктор через кнопку "Конструктор" и через логотип
